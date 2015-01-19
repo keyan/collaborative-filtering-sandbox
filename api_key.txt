@@ -1,2 +1,0 @@
-keystring: j1gyyfe44g35zti2xnvw8s9b
-shared secret: v7pjxsu4bz
