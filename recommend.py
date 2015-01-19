@@ -125,15 +125,6 @@ if __name__ == "__main__":
     # print "https://openapi.etsy.com/v2/users/\
     # :kpish?api_key={{api_key}}".format(api_key=api_key.get_api_key())
 
-    # Eventually there will be one dictionary like this for each listing
-    # that the application user has favorited. The first entry in the
-    # dictionary is the application user.
-    # {'user': {listing_id: boolean}}, where boolean is 1 if listing favorited
-    sample_data = {'keyan':  {'1123': 1, '2123': 1, '10123': 1, '97123': 1},
-                   'george': {},
-                   'emily': {'1123': 1, '2123': 1, '10123': 1, '97123': 1},
-                   'zach': {'1123': 1}
-                   }
 
     print top_user_matches(sample_data, 'keyan', 3)
 
